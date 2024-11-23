@@ -22,7 +22,7 @@ import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(SpringExtension.class)
-public class TransferAmountTest {
+public class TransferAmountFunctionalityTest {
 
     @InjectMocks
     private AccountsRepositoryInMemory repository;
