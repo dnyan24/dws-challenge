@@ -1,24 +1,17 @@
 package com.dws.challenge;
 
 import com.dws.challenge.domain.Account;
-import com.dws.challenge.repository.AccountsRepository;
 import com.dws.challenge.repository.AccountsRepositoryInMemory;
 import com.dws.challenge.service.AccountsService;
 import com.dws.challenge.service.EmailNotificationService;
-import com.dws.challenge.service.NotificationService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import java.math.BigDecimal;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
-import static org.mockito.Mockito.*;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(SpringExtension.class)
